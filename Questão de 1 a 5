@@ -1,0 +1,72 @@
+  Questão 1
+
+#include <stdio.h>
+#include <stdlib.h>
+
+//Atividade 11, Questão 1
+
+   int main (){
+
+     char aluno[5][10];
+     int nomes,contador;
+     
+     for(contador = 0; contador < 5; contador++){
+     	printf("aluno %i: ",contador);
+     	scanf("%s",aluno[contador]);
+     	
+     	
+	 }
+	 
+	system("cls");
+	
+	for (nomes = 0; nomes<5;nomes++){
+		printf("Aluno %i:%s\n",nomes,aluno[nomes]);
+	}
+	
+  system("pause");
+ 
+ return 0;
+  
+
+}
+----------------------------------------------------------
+  Questão 2 
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <windows.h>
+#include <locale.h>
+
+  int main () {
+  	int opcao=0;
+  	float nota;
+  	char nome;
+  	
+  	while ((opcao !=1) && (opcao !=2)&& (opcao !=3 )){
+	
+	  
+  	system("cls");
+    	printf("Bem vindo a meu sistema \n \n");
+        printf("Menu\n");
+        printf("------------\n");
+        printf("1_ Cadastro de notas/Aluno \n");
+        printf("2_ Alteração de Notas/Alunos \n");
+        printf("3_ Sair \n");
+        printf("Digite a sua opcao: ");
+        scanf ("%i",& opcao);
+            
+	if (opcao = 1) {
+	
+	  printf("\nDigite a nota do aluno: ");
+	  scanf("%f",& nota);
+	  
+	  
+	  printf("\nDigite o nome do aluno: ");
+	  scanf("&c",& nome);
+         
+	}	
+
+ }
+            
+    return 0;
+}
